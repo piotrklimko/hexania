@@ -1565,8 +1565,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is_pressed: 0
-  text_pressed: fly
-  text_released: walk
+  text_pressed: walk
+  text_released: fly
 --- !u!114 &1536642611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1799,6 +1799,17 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1897321160}
           m_MethodName: ToogleFlyMode
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1536642610}
+          m_MethodName: Swap
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
